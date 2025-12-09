@@ -15,7 +15,7 @@ export default function Home() {
         <p>Password</p>
         <input type="password"/>
         <br/>
-        <button>Sign In</button>
+        <button>Iniciar sesion</button>
     </div>
     </div>
     );
