@@ -46,4 +46,4 @@
     https://github.com/Parallax10
 
 -Repositorio en GitHub:
-    https://github.com/Parallax10/Projecto_D-I
+    https://github.com/Parallax10/Vibe
