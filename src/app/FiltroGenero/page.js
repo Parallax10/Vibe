@@ -16,11 +16,9 @@ export  default function Home() {
     }
     function accion(){
         if (texto=="Añadir artista"){
-            /*este boton llevaria a NuevoArtista*/
             alert("por implementar,revisa el comentario")
         }else{
             if (texto=="Sugerir artista"){
-            /*Aqui aparecerian mediante un alert los campos para meter los datos del artista, pero no se como poner varios inputs en un alert*/
             alert("por implementar,revisa el comentario")
         }
         }
