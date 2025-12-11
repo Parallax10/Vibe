@@ -3,7 +3,7 @@ import NavBar from "../navBar";
 import GridArtistas from "../GridArtistas";
 import { useState } from "react";
 export  default function Home() {
-    onst [Admin,setAdmin]=useState(false)
+    const [Admin,setAdmin]=useState(false)
     const [texto,setTexto]=useState("Sugerir artista")
     function cambiarPerfil(){
         setAdmin(!Admin)
