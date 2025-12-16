@@ -1,5 +1,9 @@
 "use client"
+
+import { useState } from "react";
+
 export default function NavBar(){
+    const[busqueda, setBusqueda]=useState("");
     return(
             <div>
                 <div>
@@ -7,16 +11,16 @@ export default function NavBar(){
                     <p>VIBE</p>
                 </div>
                 <div>
-                    <button>Pais</button>
-                    <button>Genero</button>
+                    <button onClick={()=>alert("Esto llevaria a la pagina de filtro por pais")}>Pais</button>
+                    <button onClick={()=>alert("Esto llevaria a la pagina de filtro por genero")}>Genero</button>
                 </div>
                 <div>
                     <p>Busqueda</p>
-                    <input></input>
-                    <button>Buscar</button>
+                    <input type="text" value={busqueda} onChange={(e)=>setBusqueda(e.target.value)}></input>
+                    <button onClick={()=>alert("Esto llevaria a la pagina de resultados de busqueda")}>Buscar</button>
                 </div>
                 <div>
-                    <button>Perfil</button>
+                    <button onClick={()=>alert("Esto llevaria al perfil del usuario")}>Perfil</button>
                 </div>
             </div>
     );

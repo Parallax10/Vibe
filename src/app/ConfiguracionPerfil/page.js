@@ -37,7 +37,7 @@ export default function Home() {
                 <br/>
                 <br/>
                 <h1>Borrar cuenta, esto no se puede deshacer</h1>
-                <button>Borrar</button>
+                <button onClick={alert("esto borraria la cuenta y cerraria sesion")}>Borrar</button>
             </div>
         </div>
     );

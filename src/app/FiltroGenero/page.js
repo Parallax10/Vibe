@@ -30,7 +30,7 @@ return(
         <NavBar></NavBar>
         <div>
             <h1>Filtro Genero</h1>
-            <GridArtistas></GridArtistas>
+            <GridArtistas modo="genero"></GridArtistas>
         </div>
     </div>
 );
